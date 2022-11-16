@@ -1,4 +1,4 @@
-/* #3 style the buttons--!> */
+/* #3 style the buttons */
 button {
     width: 30px;
     margin-left: 3px;
@@ -7,7 +7,7 @@ button {
     background: none;
     padding: 5px;
 }
- /* <!-- # 4 style the screen--!> */
+ /* # 4 style the screen  */
 #screen {
     background-color: green;
     color: white;
@@ -16,7 +16,7 @@ button {
     padding: 10px;
     text-align: right;
 }
-
+/*  #5 style for the entire container */
 #container {
     width: 160px;
     border: 3px solid green;

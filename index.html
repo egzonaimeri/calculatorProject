@@ -10,32 +10,35 @@
 <body>
     <!-- #1 Create a container-->
     <div id="container">
-        <!-- #2 Create each div with buttons on it X4-->
-        <div id="screen"> 0</div>
+        <!-- #2 Create each div with buttons on it X4 while adding 0-9 and the different math signs 😁-->
+        <div id="screen">0</div>
         <div> 
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
+            <!-- #6 add onclick button clicked for an event-->
+            <button onclick="buttonClicked(event)">1</button>
+            <button onclick="buttonClicked(event)">2</button>
+            <button onclick="buttonClicked(event)">3</button>
+            <button onclick="buttonClicked(event)">+</button>
         </div>
         <div>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
+            <button onclick="buttonClicked(event)">4</button>
+            <button onclick="buttonClicked(event)">5</button>
+            <button onclick="buttonClicked(event)">6</button>
+            <button onclick="buttonClicked(event)">-</button>
         </div>
         <div>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>*</button>
+            <button onclick="buttonClicked(event)">7</button>
+            <button onclick="buttonClicked(event)">8</button>
+            <button onclick="buttonClicked(event)">9</button>
+            <button onclick="buttonClicked(event)">*</button>
         </div>
         <div>
-            <button>0</button>
-            <button>/</button>
-            <button>=</button>
-            <button>C</button>
+            <button onclick="buttonClicked(event)">0</button>
+            <button onclick="buttonClicked(event)">/</button>
+            <button onclick="equalClicked(event)">=</button>
+            <button onclick="clearClicked(event)">C</button> <!-- #18 add clearClicked function to make the function clear-->
         </div>
     </div>
+    <!-- #8 we added the Javascript at the Bottom-->
+    <script src="script.js"></script>
 </body>
 </html>
